@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 100%;
+    display: grid;
+}
+
+.container h2 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.image {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.image img {
+    width: 30%;
+    margin: 20px;
+    box-shadow: 5px  ;
+}
+
+.container p {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
